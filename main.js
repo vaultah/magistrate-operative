@@ -49,7 +49,7 @@ if (so || mg) {
         let arow, a, aid;
         for (a of $('.answer')) {
             aid = a.dataset.answerid;
-            $('<div/>', {class: 'mcqc-action-row'}).append(
+            $('<div/>', {class: 'mo-action-row'}).append(
                 $('<button/>', {class: 'magistrate_action', postid: aid, text: 'NAA', type: 'naa'}),
                 $('<button/>', {class: 'magistrate_action', postid: aid, text: 'VLQ', type: 'vlq'}),
                 $('<button/>', {class: 'magistrate_action', postid: aid, text: 'RUDE', type: 'rude'}),
@@ -64,7 +64,7 @@ if (so || mg) {
                 q: `site:stackoverflow.com ${main_tag} ${title}`
             });
 
-        $('<div/>', {class: 'mcqc-action-row'}).append(
+        $('<div/>', {class: 'mo-action-row'}).append(
             $('<a/>', {href: google_url, target: '_blank'}).append(
                 $('<button/>', {class: 'magistrate_action', text: 'SEARCH', type: 'search'})
             ),

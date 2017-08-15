@@ -1,13 +1,13 @@
-.mcqc-action-row {
+.mo-action-row {
     margin: 10px 0 10px 0;
     text-align: right;
 }
 
-.mcqc-action-row + .answer {
+.mo-action-row + .answer {
     padding-top: 0;
 }
 
-.mcqc-action-row:first-of-type {
+.mo-action-row:first-of-type {
     margin-top: 0;
 }
 
@@ -57,9 +57,4 @@ button.magistrate_action {
     button.magistrate_action[type='mcve'],
     button.magistrate_action[type='rec'] {
         background-color: #000;
-    }
-
-    button.magistrate_action.view_source {
-        background-color: #d0d0d0;
-        color: #233198;
     }
