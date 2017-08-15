@@ -1,0 +1,12 @@
+{
+    "name": "Magistrate Operative",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "permissions": ["notifications"],
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["jquery-3.2.1.min.js", "main.js"],
+        "css": ["style.css"],
+        "run_at" : "document_end"
+    }]
+}
