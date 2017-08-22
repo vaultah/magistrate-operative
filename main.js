@@ -102,6 +102,7 @@ if (so || mg) {
         } else return;
 
         xhr.then(function(data) {
+            button.attr('title', data.Message);
             if (!data.Success)
                 return new $.Deferred().reject(data);
             return data;
