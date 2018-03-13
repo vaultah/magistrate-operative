@@ -1,7 +1,7 @@
 'use strict';
 
 function find_fkey(text) {
-    return text.match(/"fkey": ?"([\dabcdef]{32})"/)[1];
+    return text.match(/"fkey": ?"([\dabcdef]{32,})"/)[1];
 }
 
 
